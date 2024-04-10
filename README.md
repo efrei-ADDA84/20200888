@@ -21,3 +21,16 @@ Simple Run:
 ```bash
 docker start -i weather-app
 ```
+<br/>
+
+Tag et Upload vers DockerHub: 
+```bash
+docker tag weatherapp jzhg02/weatherapp_devops_efrei-adda84:v1
+docker push jzhg02/weatherapp_devops_efrei-adda84:v1
+```
+Pull image:
+```bash
+docker pull jzhg02/weatherapp_devops_efrei-adda84
+```
+
+Lien du [Docker image](https://hub.docker.com/r/jzhg02/weatherapp_devops_efrei-adda84).
