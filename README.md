@@ -1,6 +1,8 @@
 # 20200888
 Repo de Jacques ZHANG
 
+<h1>TP1</h1>
+
 Wrapper renseignant la condition météorologique de la position donnée par les coordonnées (latitude, longitude) dans les variables d'environnement. <br/> Utilisation de l'API de OpenWeather. <br/> 
 
 Commandes utilisées pour la conteneurisation sur Docker: <br/>
@@ -30,3 +32,23 @@ docker pull jzhg02/weatherapp_devops_efrei-adda84
 ```
 
 Lien du [Docker image](https://hub.docker.com/r/jzhg02/weatherapp_devops_efrei-adda84).
+
+<h1>TP2</h1>
+
+Création du Github Actions Workflow directement depuis GitHub. 
+J'ai set up un workflow en partant d'un fichier yml vierge. 
+
+J'ai transformer le wrapper en API sur le main.py 
+
+Recréation de l'image: 
+```bash
+docker build -t weatherapp .
+```
+Run l'API en utilisant l'image: 
+```bash
+docker run -p 8081:8081 --env API_KEY=db0bf5c3e70405d17f0b1aa0b618824b weatherapp
+```
+Call l'API dans un autre terminal: 
+```bash
+curl "http://localhost:8081/?lat=5.902785&lon=102.754175"
+```

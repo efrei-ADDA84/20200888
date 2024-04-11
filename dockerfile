@@ -6,4 +6,8 @@ COPY . /app
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "main.py"]
+EXPOSE 8081
+
+ENV UVICORN_PORT=8081
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8081"]
