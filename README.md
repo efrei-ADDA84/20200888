@@ -46,7 +46,7 @@ docker build -t weatherapp .
 ```
 Run l'API en utilisant l'image: 
 ```bash
-docker run -p 8081:8081 --env API_KEY=db0bf5c3e70405d17f0b1aa0b618824b weatherapp
+docker run -p 8081:8081 --env API_KEY=**** weatherapp
 ```
 Call l'API dans un autre terminal: 
 ```bash
