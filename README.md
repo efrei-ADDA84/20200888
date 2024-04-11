@@ -38,9 +38,9 @@ Lien du [Docker image](https://hub.docker.com/r/jzhg02/weatherapp_devops_efrei-a
 Création du Github Actions Workflow directement depuis GitHub. 
 J'ai set up un workflow en partant d'un fichier yml vierge. 
 
-J'ai transformer le wrapper en API sur le main.py 
+J'ai transformé le wrapper en API directement sur le main.py 
 
-Recréation de l'image: 
+Re-création de l'image: 
 ```bash
 docker build -t weatherapp .
 ```
