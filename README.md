@@ -15,11 +15,7 @@ docker images
 ```
 Création et Run le container: 
 ```bash
-docker run --name weather-app weatherapp
-```
-Simple Run: 
-```bash
-docker start -i weather-app
+docker run --env LAT="31.2504" --env LONG="-99.2506" --env API_KEY=**** weatherapp
 ```
 <br/>
 

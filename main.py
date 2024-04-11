@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-lat = os.getenv("LATITUDE")
-long = os.getenv("LONGITUDE")
+lat = os.getenv("LAT")
+long = os.getenv("LONG")
 apikey = os.getenv("API_KEY")
 
 
