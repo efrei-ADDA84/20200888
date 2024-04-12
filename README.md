@@ -36,7 +36,8 @@ Lien du [Docker image](https://hub.docker.com/r/jzhg02/weatherapp_devops_efrei-a
 <h1>TP2</h1>
 
 Création du Github Actions Workflow directement depuis GitHub. 
-J'ai set up un workflow en partant d'un fichier yml vierge. 
+J'ai set up un workflow en partant d'un fichier yml vierge. J'ai pris les lignes/configurations nécessaires pour chaque action en browsant le Marketplace. 
+Le plus dure a été de compdrendre comment fonctionne un yml puisque j'en ai jamais set up un auparavant. 
 
 J'ai transformé le wrapper en API directement sur le main.py 
 
