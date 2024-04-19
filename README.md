@@ -79,7 +79,12 @@ curl "http://devops-20200888.francecentral.azurecontainer.io:8081/?lat=5.902785&
 
 <h1>TP4</h1>
 
-Le TP4 est disponible dans le dossier TP4 - Terraform 
+Le TP4 est disponible dans le dossier TP4-Terraform 
+
+Si vous n'êtes pas dans le dossier TP4-Terraform:
+```bash
+cd .\TP4-Terraform\
+```
 
 Objectif: Créer une machine virtuelle Azure (VM) avec une adresse IP publique dans un réseau existant en utilisant Terraform et se connecter à la VM avec SSH
 
